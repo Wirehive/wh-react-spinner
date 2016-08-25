@@ -1,0 +1,33 @@
+{
+  "name": "wh-react-spinner",
+  "version": "1.0.0",
+  "description": "React component for mousewheel modification of a value.",
+  "main": "lib/index.js",
+  "jsnext:main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "./node_modules/.bin/babel --presets es2015,react --plugins transform-class-properties src/ --out-dir lib/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Wirehive/wh-react-spinner.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Barnaby <barnaby@wirehive.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wirehive/wh-react-spinner/issues"
+  },
+  "homepage": "https://github.com/Wirehive/wh-react-spinner#readme",
+  "dependencies": {
+    "react": "^15.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-plugin-transform-class-properties": "^6.11.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1"
+  }
+}

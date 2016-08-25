@@ -1,0 +1,9 @@
+# wh-react-spinner
+React component for mousewheel modification of a value.
+
+    <Spinner
+      onChange={value => this.setState({value: value})}
+    >
+      <input value={this.state.value} />
+    </Spinner>
+    
